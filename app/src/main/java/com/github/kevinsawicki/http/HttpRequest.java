@@ -20,7 +20,7 @@
  * IN THE SOFTWARE.
  */
 package com.github.kevinsawicki.http;
-
+import javax.net.ssl.HostnameVerifier;
 import static java.net.HttpURLConnection.HTTP_BAD_REQUEST;
 import static java.net.HttpURLConnection.HTTP_CREATED;
 import static java.net.HttpURLConnection.HTTP_INTERNAL_ERROR;
