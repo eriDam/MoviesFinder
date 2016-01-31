@@ -58,10 +58,11 @@
             android:id="@+id/tv_guionistas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_titulo"
-            android:layout_toRightOf="@id/iv_caratula"
             android:singleLine="true"
-            android:textIsSelectable="false" />
+            android:textIsSelectable="false"
+            android:layout_below="@+id/tv_titulo"
+            android:layout_toRightOf="@+id/iv_caratula"
+            android:layout_toEndOf="@+id/iv_caratula" />
 
         <TextView
             android:id="@+id/tv_actores"
